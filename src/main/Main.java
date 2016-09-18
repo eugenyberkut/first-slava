@@ -30,10 +30,7 @@ public class Main {
     }
 
     public int steps(double a, double b, double h) {
-//        int k = 0;
-//        for (double x=a; x<=b; x+=h) {
-//            k++;
-//        }
+
         return (int) ((b-a)/h+1);
     }
 
